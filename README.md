@@ -63,4 +63,4 @@ I had a <sub>wonderful</sub> time on Discord
 ```
 Output: I had a <sub>wonderful</sub> time on Discord
 > [!NOTE]
-> "``" was added between `<sub>` and `</sub>` for no clashing between sentences of the steps.
+> "``" was added between `<sub>` and `(</sub>)` for no clashing between sentences of the steps.
