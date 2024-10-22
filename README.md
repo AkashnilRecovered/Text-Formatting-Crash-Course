@@ -1,4 +1,4 @@
-# Basic Formatting Crash Course
+# Basic Formatting Crash Course (WIP)
 This crash course has got the various formatting you can use on GitHub. Feel free to come back to this repository if you want to copy these.
 
 ## Table of Contents
@@ -81,10 +81,48 @@ Example:
 Output:
 
 > I had a wonderful time on Discord
-## Color models
-To call out color models in your text, you can add color codes like `#ffffff` or `#000000` using backticks and a hashtag. 
+### Color models
+To call out color models in your text, you can add color codes like `#ffffff` or `#000000` using backticks and a hashtag. (Might not work in README, only pull requests, disscussions, issues.)
 Example:
 ```
 The color for white is `#ffffff` and the color of black is `#000000`
 ```
-Output: The color for white is `#RRGGBB` and the color of black is `#000000`
+Output: The color for white is `#ffffff` and the color of black is `#000000` (yes, it doesn't show the color next to it on a readme)
+
+Color: HEX, RGB, HSL
+
+Syntax:
+
+For HEX: `#RRGGBB`
+
+For RGB: `rgb(R,G,B)`
+
+For HSL: `hsl(H,S,L)`
+
+Example for given syntaxes:
+
+HEX: `#0969DA`
+
+RGB: `rgb(9, 105, 218)`
+
+HSL: `hsl(212, 92%, 45%)`
+
+> [!NOTE]
+> - A supported color model cannot have any leading or trailing spaces within the backticks.
+> - The visualization of the color is only supported in issues, pull requests, and discussions.
+### Text linking
+To apply text linking (having a link in the text), apply brackets ([]) between the beginning and end of the words and brackets 2 (()) between the beginning and end of the link.
+Example:
+```
+[Link to my GTA SA Modpack](https://github.com/AkashnilRecovered/AkashnilRecovered)
+```
+Output: [Link to my GTA SA Modpack](https://github.com/AkashnilRecovered/AkashnilRecovered)
+### Header linking
+To apply header linking, apply brackets ([]) between the beginning and end of the words and brackets 2 (()) between the beginning and end of the link. The link must have a hashtag at the beginning.
+Example:
+```
+[Table of Contents](#table-of-contents)
+```
+Output: [Table of Contents](#table-of-contents)
+### Lists
+To make lists, you can 
