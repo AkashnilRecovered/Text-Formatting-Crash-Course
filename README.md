@@ -19,6 +19,7 @@ Example:
 **bold text**
 ```
 Output: **bold text**
+
 To make bold with italics text, first apply three asterisks (***) between the first and last letter of your word.
 Example:
 ```
