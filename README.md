@@ -48,10 +48,19 @@ Example:
 *~~italic and strikethrough text~~*
 ```
 Output: *~~italic and strikethrough text~~*
-## Bold and nested italic
+### Bold and nested italic
 To make bold and nested italic, first apply two asterisks (**) at the first and last letter of your sentence, then apply two underscores (__) at the beginning and end of the desired word of your sentence.
 Example:
 ```
 **I had a _wonderful_ time on Discord**
 ```
 Output: **I had a _wonderful_ time on Discord**
+### Subscript and Superscript
+To make your text underneath your sentence, first apply `<sub>` at the beginning of desired word of your sentence and `</sub>` at the end of the word of your sentence.
+Example:
+```
+I had a <sub>wonderful</sub> time on Discord
+```
+Output: I had a <sub>wonderful</sub> time on Discord
+> [!NOTE]
+> "``" was added between `<sub>` and `</sub>` for no clashing between sentences of the steps.
