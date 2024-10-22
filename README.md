@@ -26,3 +26,12 @@ Example:
 ***bold with italics text***
 ```
 Output: ***bold with italics text***
+### Strikethrough and Bold with Strikethrough & Italics with Strikethrough
+To make a strikethrough, first apply two tildes (~~) between the first and last letter of your word.
+Example:
+```
+~~strikethrough text~~
+```
+Output: ~~strikethrough text~~
+
+
