@@ -34,4 +34,24 @@ Example:
 ```
 Output: ~~strikethrough text~~
 
+To make bold text with strikethrough, first apply two asterisks and tildes (**,~~) between the first and last letter of your word.
+Example: 
+```
+**~~bold and strikethrough text~~**
+```
+Output:
+**~~bold and strikethrough text~~**
 
+To make italic text with strikethrough, first apply one asterisk and two tildes (*, ~~) between the first and last letter of your word.
+Example:
+```
+*~~italic and strikethrough text~~*
+```
+Output: *~~italic and strikethrough text~~*
+## Bold and nested italic
+To make bold and nested italic, first apply two asterisks (**) at the first and last letter of your sentence, then apply two underscores (__) at the beginning and end of the desired word of your sentence.
+Example:
+```
+**I had a _wonderful_ time on Discord**
+```
+Output: **I had a _wonderful_ time on Discord**
