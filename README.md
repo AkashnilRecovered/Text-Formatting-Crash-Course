@@ -4,7 +4,7 @@ This crash course has got the various formatting you can use on GitHub. Feel fre
 ## Table of Contents
 (SOON)
 
-## Basic formatting to make text better-looking
+## Text Formatting Level 1
 ### Italics
 To make italic text, first apply an asterisk (*) between the first and last letter of your word.
 Example: 
@@ -56,11 +56,35 @@ Example:
 ```
 Output: **I had a _wonderful_ time on Discord**
 ### Subscript and Superscript
-To make your text underneath your sentence, first apply `<sub>` at the beginning of desired word of your sentence and `</sub>` at the end of the word of your sentence.
+To make your text below your sentence, first apply `<sub>` at the beginning of desired word of your sentence and `</sub>` at the end of the word of your sentence.
 Example:
 ```
 I had a <sub>wonderful</sub> time on Discord
 ```
 Output: I had a <sub>wonderful</sub> time on Discord
+
+To make your text above your sentence, first apply `<sup>` at the beat the beginning of desired word of your sentence and `</sup>` at the end of the word of your sentence.
+Example:
+```
+I had a <sup>wonderful</sup> time on Discord
+```
+Output: I had a <sup>wonderful</sup> time on Discord
 > [!NOTE]
-> "``" was added between `<sub>` and `(</sub>)` for no clashing between sentences of the steps.
+> Two backticks (``) were added between `<sub>` and `< /sub >` and `< sup >` and `< /sup >` for no clashing between sentences of the steps.
+## Text Formatting Level 2
+### Quoting text
+You can quote your text by applying greater than symbol (>) at the beginning of your sentence.
+Example:
+```
+> I had a wonderful time on Discord
+```
+Output:
+
+> I had a wonderful time on Discord
+## Color models
+To call out color models in your text, you can add color codes like `#ffffff` or `#000000` using backticks and a hashtag. 
+Example:
+```
+The color for white is `#ffffff` and the color of black is `#000000`
+```
+Output: The color for white is `#RRGGBB` and the color of black is `#000000`
