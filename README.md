@@ -125,4 +125,161 @@ Example:
 ```
 Output: [Table of Contents](#table-of-contents)
 ### Lists
-To make lists, you can 
+To make lists, you can use these keywords: *,-,+
+Example: 
+```
+* Discord
+- Spotify
++ Microsoft
+```
+Output:
+* Discord
+- Spotify
++ Microsoft
+
+You can order your list by using numbering system. 
+Example:
+```
+1. Discord
+2. Spotify
+3. Microsoft
+and so on
+```
+Output:
+1. Discord
+2. Spotify
+3. Microsoft
+
+and so on
+### Nested Lists (from Github Documentation)
+You can create a nested list by indenting one or more list items below another item.
+
+To create a nested list using the web editor on GitHub or a text editor that uses a monospaced font, like Visual Studio Code, you can align your list visually. Type space characters in front of your nested list item until the list marker character (- or *) lies directly below the first character of the text in the item above it.
+Example:
+```
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+> [!NOTE]
+> In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
+
+Output:
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+To create a nested list in the comment editor on GitHub, which doesn't use a monospaced font, you can look at the list item immediately above the nested list and count the number of characters that appear before the content of the item. Then type that number of space characters in front of the nested list item.
+
+In this example, you could add a nested list item under the list item 100. First list item by indenting the nested list item a minimum of five spaces, since there are five characters (100. ) before First list item.
+Example:
+```
+100. First list item
+     - First nested list item
+```
+Output:
+
+100. First list item
+     - First nested list item
+
+You can create multiple levels of nested lists using the same method. For example, because the first nested list item has seven characters (␣␣␣␣␣-␣) before the nested list content First nested list item, you would need to indent the second nested list item by at least two more characters (nine spaces minimum).
+
+Example:
+```
+100. First list item
+     - First nested list item
+       - Second nested list item
+```
+Output:
+
+100. First list item
+     - First nested list item
+       - Second nested list item
+### Task lists (from Github Documentation)
+To create a task list, preface list items with a hyphen and space followed by [ ]. To mark a task as complete, use [x].
+Example:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+Output:
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+If a task list item description begins with a parenthesis, you'll need to escape it with \:
+
+- [ ] \(Optional) Open a followup issue
+### Footnotes (from Github Documentation)
+You can add footnotes to your content by using this bracket syntax (example):
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+```
+The footnote will render like this (output):
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference. (From Footnote)
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line. (From Footnote)
+
+> [!NOTE]
+> The position of a footnote in your Markdown does not influence where the footnote will be rendered. You can write a footnote right after your reference to the footnote, and the footnote will still render at the bottom of the Markdown. Footnotes are not supported in wikis.
+### Alerts (github only)
+Alerts are a Markdown extension based on the blockquote syntax that you can use to emphasize critical information. On GitHub, they are displayed with distinctive colors and icons to indicate the significance of the content.
+
+Use alerts only when they are crucial for user success and limit them to one or two per article to prevent overloading the reader. Additionally, you should avoid placing alerts consecutively. Alerts cannot be nested within other elements.
+
+To add an alert, use a special blockquote line specifying the alert type, followed by the alert information in a standard blockquote. Five types of alerts are available (examples):
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+Output of Note: 
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+Output of Tip:
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+Output of Important:
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+Output of Warning:
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+Output of Caution:
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+<p align="center">The end</p>
