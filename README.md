@@ -1,4 +1,4 @@
-# Basic Formatting Crash Course (WIP)
+# Text Formatting Crash Course
 This crash course has got the various formatting you can use on GitHub. Feel free to come back to this repository if you want to copy these.
 
 ## Table of Contents
