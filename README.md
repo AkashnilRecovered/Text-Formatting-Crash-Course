@@ -282,4 +282,12 @@ Output of Caution:
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
+### Hiding embed of links (works on Discord)
+To hide the embed sent automatically with the link, add < at the beginning of the link and > at the end of the link
+Example:
+```
+<www.google.com>
+```
+Output: <www.google.com> (yeah i told you)
+
 <p align="center">The end</p>
